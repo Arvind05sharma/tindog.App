@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* **************heading section***************** */
+.big-heading {
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* *********container-css*************** */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/************** title section******************** */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* **********title-image********* */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* **************testimonials section starts************ */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* **************testimonials section ends************ */
+/* ********press section starts*********************** */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/************** title ends**************** */
+/* *************cta section starts******** */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: white;
+}
+
+/* *************cta section ends******** */
+/* **************footer section **********/
+#footer {
+  padding: 7% 15%;
+}
+
+.foot-icon {
+  margin: 20px 10px;
+}
+
+/* ***navigation-bar section starts***** */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/* ***navigation-bar section ends*********** */
+/******************* buttons ******************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*********** Features section starts********* */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 4.5%
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* ***************pricing section starts*********************** */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* ***************pricing section ends*********************** */
+/* ***************mediaQurey***************************** */
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
